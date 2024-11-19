@@ -51,11 +51,13 @@ function ProjectCard({ project }) {
             }
             <span className="text-gray-400">{"'],"}</span>
           </div>
+         { project.role &&
           <div>
             <span className="ml-4 lg:ml-8 mr-2 text-white">myRole:</span>
             <span className="text-orange-400">{project.role}</span>
             <span className="text-gray-400">,</span>
           </div>
+          }
           <div>
             <span className="ml-4 lg:ml-8 mr-2 text-white">Link:</span>
             <a href={project.link} target="_blank" rel="noopener noreferrer" className="text-[#16f2b3]">
