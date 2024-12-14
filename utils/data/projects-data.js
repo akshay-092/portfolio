@@ -50,7 +50,7 @@ export const projectsData = [
     },
     {
         id: 5,
-        name: 'AI Imagica : Explore, Discover, and Download AI-Generated Art Effortlessly',
+        name: 'AI Imagica',
         description: 'AI Imagica is a platform I created to simplify discovering and downloading AI-generated images. I built it with a React frontend featuring infinite scrolling and a Node.js backend for efficient data handling. It allows users to search, explore, and download high-quality AI-generated images effortlessly, ensuring a seamless and secure experience.',
         tools: ['NodeJs','ReactJs'],
         code: '',
